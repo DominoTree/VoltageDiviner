@@ -1,0 +1,37 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Voltage Diviner",
+    "description": "Automatic voltage dividers based on the parts you already have",
+    "description_full": "Keep a list of your available resitors and their values and tolerances, provide a desired input voltage and output voltage, and this will automatically find the closest option using the resistors you already have on hand.",
+    "identifier": "com.github.dominotree.voltagediviner",
+    "type": "plugin",
+    "author": {
+        "name": "Nick Price",
+        "contact": {
+            "web": "https://github.com/dominotree",
+						"email": "nick@spun.io"
+        }
+    },
+    "maintainer": {
+        "name": "Nick Price",
+        "contact": {
+            "web": "https://github.com/dominotree",
+						"email": "nick@spun.io"
+        }
+    },
+    "license": "GPL-3",
+    "resources": {
+        "homepage": "https://github.com/dominotree/voltagediviner"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "status": "stable",
+            "kicad_version": "5.99",
+            "download_sha256": "YOUR_SHA256_HERE",
+            "download_size": 1234,
+            "download_url": "https://github.com/YOUR/DOWNLOAD/URL/kicad-beautiful-theme.zip",
+            "install_size": 5678
+        }
+    ]
+}
